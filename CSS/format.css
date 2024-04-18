@@ -1,10 +1,26 @@
 body {
-    padding-top: 50px;
+    padding-top: 10px;
 }
+
+header h1{
+    width: 10%;
+    font-size:120%; /*フォントサイズの調整*/
+    color:#313131; /*文字色の変更*/
+    padding-top: 10px; /*文字上部に余白*/
+    padding-bottom: 10px; /*文字下部に余白*/
+    padding-left: 20px; /*文字左側に余白*/
+    padding-right: 20px; /*文字右側に余白*/
+    border:1px solid #313131; /*文字の周りに線を描く*/
+    border-radius: 5px; /*線の角に丸みを付ける*/
+    letter-spacing: 3px; /*文字と文字の間隔をあける*/
+    font-weight:400; /*文字の太さの変更*/
+}
+
+/*
 
 h1 {
     text-align: center; 
-    font-size: 40px;
+    font-size: 30px;
     font-family: "DotGothic16", sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -16,7 +32,46 @@ h1 {
 h1 span {
     font-size: 30px;
 }
+*/
 
+
+/*****NAV*****/
+nav{
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+nav ul{
+    width: 60%;
+    margin-left: 20%;
+}
+nav li{
+    width: calc(25% - 2px);
+    font-size: 110%;
+    letter-spacing: 5px;
+    font-weight: 400;
+    line-height: 45px;
+    border-left: 1px solid black;
+    color: #313131;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+}
+nav li:last-child{
+    border-right: 1px solid black;
+}
+
+nav li:hover{
+    background-color: orange;
+    transition: background-color 0.5s ease-out;
+    color: #fff;
+}
+/************/
+
+
+/*****globalNAV*****/
 .globalNavi li{
     display: inline-block;
     margin-right: 40px;
@@ -30,9 +85,11 @@ h1 span {
 .globalNavi li:last-child{
     margin-right: 0;
 }
+/*************/
 
+/*****mainImage*****/
 .mainImage {
-    width : 50%;
+    width : 30%;
     margin-right: auto;
     margin-left: auto;
 
@@ -42,7 +99,11 @@ h1 span {
     width: 100%;
     height: auto;
 }
+/******************/
 
+
+
+/*****aboutSection*****/
 .aboutSection{
     width: 100%;
     margin-right: auto;
@@ -79,6 +140,9 @@ h1 span {
 }
 
 .aboutSection li img{
-    width: 100%;
+    width: 50%;
     height: 25%;
 }
+
+
+/*****aboutSection*****/
