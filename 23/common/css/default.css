@@ -303,6 +303,40 @@ body {
 	background-color:#eee;
 }
 
+/* 石元追加テーブル */
+
+#result-list table {
+	width:586px;
+	border-collapse:collapse;
+	margin-left:20px;
+	margin-top:6px;
+}
+
+#result-list table td, #contents table th{
+	border:1px solid #999;
+	padding:3px 8px;
+}
+
+#result-list table th {
+	font-weight:bold;
+	color:#333;
+	text-align:center;
+}
+
+#result-list table th {
+	color:#fff;
+	background:#999;
+	font-weight:bold;
+	text-align:left;
+}
+
+#result-list tr th {
+	background-color:#eee;
+}
+
+
+
+
 /* コンテンツエリア */
 
 #contents3 {
@@ -539,4 +573,11 @@ body {
 #contents .cautionmsg {
 	color:#f00;
 	font-size:80%;
+}
+
+
+#search-form {
+	text-align:center;
+	padding-left: auto;
+	padding-right: auto;
 }
