@@ -1,0 +1,190 @@
+@import "reset-min.css";
+@import "reset-fonts.css";
+
+/* 詳細 パンくず タイトル  一覧に戻る*/
+#breadcrumb h2 {
+	padding-left:4px;
+	padding-bottom:2px;
+	border-width:0px 0px 1px 5px;
+	border-style:none none solid solid;
+	border-color:#666 #C32522;
+	font-size:130%;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#breadcrumb .breadcomb {
+	margin-top:20px;
+	margin-left:20px;
+}
+
+#breadcrumb .breadcomb li {
+	display:inline;
+}
+
+
+
+#breadcrumb .leftnavi2{
+	width:220px;
+	text-align:left;
+	margin-left:20px;
+	margin-top:10px;
+	float:left;
+} 
+
+#breadcrumb .rightnavi2{
+	width:200px;
+	text-align:right;
+	margin-top:10px;
+	float:left;
+} 
+
+/* 左サイドメニュー */
+#leftside {
+ 	width:190px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+#leftside h3 {
+	font-weight:bold;
+	color:#333;
+	border-width:1px;
+	border-color:#666;
+	border-style:none none solid;
+	line-height:180%;
+}
+
+#leftside .related {
+	margin-top:10px;
+}
+
+#leftside .products_list {
+	margin-top:10px;
+}
+
+#leftside .products_list li {
+	line-height:140%;
+}
+
+/* 目次 */
+#leftside dl{
+	margin-top:10px;
+	margin-bottom:30px;
+	width :190px;
+}
+
+#leftside dt{
+	clear: left;
+	float:left;
+	width:30px;
+	margin-bottom:5px;
+}
+
+#leftside dd{
+	margin-left:30px;
+	margin-bottom:5px;
+}
+
+
+/* 詳細 pdf一覧*/
+#contents5 {
+	float:left;
+	margin-left:0px;
+	width:380px;
+	padding-bottom:20px;
+	padding-top:1px;
+	
+	height:500px;
+	overflow:auto;
+	
+}
+
+/* タイトル章 */
+#contents5 h4 {
+
+	color:#333;
+	font-weight:bold;
+	margin-top:29px;
+	margin-left:5px;
+	padding-left:2px;
+}
+
+#contents5 table {
+	margin-left:30px;
+	margin-top:15px;
+	border-collapse:collapse;
+	width:350px;
+}
+
+
+#contents5 table th, 
+#contents5 table td {
+	border-width:0px 0px 1px 0px;
+	border-color: #333;
+	border-style:dotted;
+	padding:2px;
+	font-weight:normal;
+}
+
+#contents5 table th {
+	width:60px;
+}
+
+#contents5 table td {
+	padding-left:30px;
+}
+
+#contents5 .grayback {
+	background-color:#eee;
+	padding:10px;
+	margin-top:10px;
+	margin-left:5px;
+	width:330px;
+	overflow:auto;
+	padding-bottom:15px;
+}
+
+#contents5 .grayback table {
+	float:left;
+	width:265px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#contents5 .grayback table th {
+	width:100px;
+	font-size:80%;
+	margin-top:0px;
+}
+
+#contents5 .grayback table td {
+	padding-left:0px;
+}
+
+#contents5 .grayback .pdf {
+	float:left;
+	width:60px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#contents5 .grayback .revision {
+	padding-top:8px;
+	clear:left;
+	width:340px;
+	text-align:right;
+}
+
+#contents5 .contents_list li {
+	line-height:150%;
+}
+
+
+
+
+
+
+

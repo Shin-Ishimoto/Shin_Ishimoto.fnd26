@@ -1,0 +1,520 @@
+@import "reset-min.css";
+@import "reset-fonts.css";
+
+a {
+	font-style:normal;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#f96;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:red;
+}
+
+body {
+	text-align:center;
+	padding-bottom:20px;
+}
+
+/* ヘッダエリア */
+#contentsblock {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	width:798px;
+	border-width:1px;
+	border-style: none solid;
+	border-color:#999;
+	background-image:url("../images/contents_bg.gif");
+	background-color:transparent;
+	background-position:0 0;
+	background-repeat:repeat-y;
+}
+
+/* 車種別ポップアップ */
+#contentsblock2 {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	width:640px;
+	border-width:1px;
+	border-style: none solid;
+	border-color:#999;
+}
+
+
+/* ヘッダエリア */
+
+#header {
+	height:57px;
+	border-bottom:2px solid #c32522;
+	background-color:#fff;
+}
+
+#header h1 {
+	float:left;
+	width:168px;
+	padding-top:5px;
+}
+
+#header h1 img {
+	padding-left:6px;
+}
+
+#header .topmenu {
+	float:left;
+	margin-top:29px;
+	border-width:1px;
+	border-style:none solid none none;
+	border-color:#999;
+	/*width:560px; */
+}
+
+#header .topmenu li {
+	border-width:1px;
+	border-style: solid none none solid;
+	border-color:#999 #fff #c32522 #999;
+	float:left;
+	line-height:0px;
+	width:135px;
+	font-size:0;
+}
+
+#header .topbutton {
+	float:left;
+	margin-top:5px;
+	height:48px;
+}
+
+#header .topbutton li {
+	line-height:0;
+	margin:0px;
+	padding:0px;
+	margin-left:70px;
+	height:24px;
+	width:146px;
+	font-size:0;
+	line-height:0px;
+}
+
+#header p{
+	width:440px;
+	float:left;
+	text-align:right;
+	margin-top:29px;
+}
+
+/* 左サイドメニューエリア */
+
+#sidebar {
+	float:left;
+	width:168px;
+	height:auto;
+	min-height:1px;
+	padding-bottom:100px;
+}
+
+#sidebar h2 {
+	color:#333;
+	font-weight:bold;
+	padding:0px 6px;
+	line-height:51px;
+	border-width:1px;
+	border-style:none none solid;
+	border-color:#999;
+	font-size:123.1%;
+}
+
+#sidebar h2 img {
+}
+
+#sidebar ul li {
+	background-image:url("../images/menu_back.jpg");
+	border-width:1px;
+	border-style: none none solid;
+	border-color:#fff;
+	padding:4px 8px;
+}
+
+/* コンテンツエリア */
+
+#contents {
+	float:left;
+	margin-left:0px;
+	width:628px;
+	padding-bottom:20px;
+	padding-top:1px;
+}
+
+#contents h2 {
+	border-width: 0 0 1px;
+	border-style: none none solid;
+	border-color: #ccc;
+	font-size:0px;
+	line-height:0px;
+	height:50px;
+	width:628px;
+	text-align:right;
+}
+
+#contents h2 img {
+	padding-left:3px;
+}
+
+#contents h3 {
+	/*color:#333;*/
+	color:#ff0000;
+	font-weight:bold;
+	margin-top:29px;
+	margin-left:20px;
+	padding-left:2px;
+	padding-bottom:10px;
+	font-size:14px;
+	background-image:url("../images/dot_line_long.gif");
+	width:584px;
+}
+
+
+#contents p {
+	margin-left:22px;
+	line-height:160%;
+}
+
+
+#contents h4 {
+	color:#red;
+	font-weight:bold;
+	margin-top:29px;
+	margin-left:20px;
+	padding-left:2px;
+	padding-bottom:10px;
+	font-size:14px;
+	background-image:url("../images/dot_line_long.gif");
+	width:584px;
+}
+
+
+
+/* トップページ新着書簡用 */
+
+#contents .new {
+	margin-left:32px;
+	line-height:160%;
+	margin-bottom:4px;
+}
+
+/* 右寄せリンク */
+
+#contents .rightnavi {
+	width:570px;
+	text-align:right;
+}
+
+/* 左寄せリンク */
+
+#contents .leftnavi {
+	width:570px;
+	text-align:left;
+}
+
+#contents3 .leftnavi, 
+#contents4 .leftnavi {
+	width:600px;
+	text-align:left;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+/* 50音インデックス */
+
+#contents .index {
+	width:500px;
+	margin:8px 40px;
+	height:20px;
+	word-spacing: 18px;
+}
+
+#contents .index li {
+	display:inline;
+}
+
+/* パンくずリスト */
+
+#contents .breadcomb,
+#contents3 .breadcomb,
+#contents4 .breadcomb {
+	margin-top:20px;
+	margin-left:20px;
+}
+
+#contents .breadcomb li,
+#contents3 .breadcomb li,
+#contents4 .breadcomb li {
+	display:inline;
+}
+
+/* テーブル */
+
+#contents table {
+	width:586px;
+	border-collapse:collapse;
+	margin-left:20px;
+	margin-top:6px;
+}
+
+#contents table td, #contents table th{
+	border:1px solid #999;
+	padding:3px 8px;
+}
+
+#contents table th {
+	font-weight:bold;
+	color:#333;
+	text-align:center;
+}
+
+#contents table th.carindex {
+	color:#fff;
+	background:#999;
+	font-weight:bold;
+	text-align:left;
+}
+
+#contents .itemlist tr th {
+	background-color:#eee;
+}
+
+/* コンテンツエリア */
+
+#contents3 {
+	float:left;
+	margin-left:0px;
+	width:440px;
+	padding-bottom:20px;
+	padding-top:1px;
+}
+
+#contents3 h2,
+#contents4 h2 {
+	padding-left:4px;
+	padding-bottom:2px;
+	border-width:0px 0px 1px 5px;
+	border-style:none none solid solid;
+	border-color:#666 #C32522;
+	font-size:130%;
+	margin-left:20px;
+	margin-top:20px;
+}
+#contents4 h2 {
+	width:590px;
+}
+
+#contents3 h3 {
+	color:#333;
+	font-weight:bold;
+	margin-top:29px;
+	margin-left:20px;
+	padding-left:2px;
+	padding-bottom:10px;
+	font-size:13px;
+	background-image:url("../images/dot_line_middle.gif");
+}
+
+#contents3 h4 {
+	color:#333;
+	font-weight:bold;
+	margin-top:29px;
+	margin-left:20px;
+	padding-left:2px;
+}
+
+
+#contents3 table {
+	margin-left:30px;
+	margin-top:15px;
+	border-collapse:collapse;
+	width:350px;
+}
+
+
+#contents3 table th, 
+#contents3 table td {
+	border-width:0px 0px 1px 0px;
+	border-color: #333;
+	border-style:dotted;
+	padding:2px;
+	font-weight:normal;
+}
+
+#contents3 table th {
+	width:60px;
+}
+
+#contents3 table td {
+	padding-left:30px;
+}
+
+#contents3 .grayback {
+	background-color:#eee;
+	padding:10px;
+	margin-top:10px;
+	margin-left:30px;
+	width:350px;
+	overflow:auto;
+	padding-bottom:15px;
+}
+
+#contents3 .grayback table {
+	float:left;
+	width:265px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#contents3 .grayback table th {
+	width:100px;
+	font-size:80%;
+	margin-top:0px;
+}
+
+#contents3 .grayback table td {
+	padding-left:0px;
+}
+
+#contents3 .grayback .pdf {
+	float:left;
+	width:80px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#contents3 .grayback .revision {
+	padding-top:8px;
+	clear:left;
+	width:340px;
+	text-align:right;
+}
+
+#contents3 .contents_list li {
+	line-height:150%;
+}
+
+
+/* 車種別編 旧版一覧 */
+
+#contents4 {
+	padding-bottom:20px;
+}
+
+#contents4 table {
+	width:600px;
+	border-collapse:collapse;
+	margin-left:20px;
+	margin-top:6px;
+	margin-bottom:20px;
+}
+
+#contents4 table th {
+	border:1px solid #999;
+	background-color:#eee;
+	padding:3px 8px;
+}
+
+#contents4 table td {
+	border:1px solid #999;
+	padding:3px 8px;
+}
+
+#contents4 p {
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:4px;
+	line-height:130%
+}
+
+#contents4 p.attention{
+	text-indent:-1em;
+	margin-left:3em;
+
+}
+
+/* 車種別編　資料一覧用 */
+#contents3 .contents_list{
+	margin-left:20px;
+	margin-top:20px;
+}
+
+
+/* 右仕切り線 */
+
+#vline {
+	float:left;
+	width:24px;
+	text-align:center;
+	padding-top:50px;
+	font-size:0;
+}
+
+/* 右サイドバー */
+
+#rightside {
+	float:left;
+	width:150px;
+	padding-top:28px;
+}
+
+#rightside h3 {
+	font-weight:bold;
+	color:#333;
+	border-width:1px;
+	border-color:#666;
+	border-style:none none solid;
+	line-height:180%;
+	margin-top:30px;
+}
+
+#rightside .related {
+	margin-top:10px;
+}
+
+#rightside .products_list {
+	margin-top:10px;
+}
+
+#rightside .products_list li {
+	line-height:140%;
+}
+
+
+/* フッター */
+
+#footer {
+	clear: both;
+	border-width:1px;
+	border-style: solid none;
+	border-color:#999;
+	padding:8px 4px;
+	background-color:#fff;
+}
+
+/* 部品 */
+
+.odd {
+	background:#eee;
+}
+
+.center {
+	text-align:center;
+}
+
+.left {
+	text-align:left;
+}
+
+.bullet {
+	margin-left:4px;
+}
