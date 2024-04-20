@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介ホームページ</title>
+    <meta name="discription" content="石元の自己紹介HP(コンタクト用ページ)です">
+    <link rel = "stylesheet" type="text/css" href = "CSS/format.css">
+    <link rel = "stylesheet" type="text/css" href = "CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>SHIN ISHIMOTO</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../Shin_Ishimoto.fnd26-main/index.html">HOME</a>
+        </li>
+        <li>
+          <a href="../Shin_Ishimoto.fnd26-main/profiel.html">PROFIEL</a>
+        </li>
+        <li>
+          <a href="../Shin_Ishimoto.fnd26-main/work.html">WORK</a>
+        </li>
+        <li>
+          <a href="../Shin_Ishimoto.fnd26-main/contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h2>Contact Form</h2>
+    <p style="text-align: center; margin: 40px auto">
+	お気軽にお問い合わせください。
+    </p>
+
+<form class="c-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScVD7xRSHFDJpcyKD2ez6u3XzMffct91xZV_kPIeQ2r9IpFoQ/formResponse" method="POST">
+    <!-- 名前 -->
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-name">名前<span class="c-form__required">必須</span></label>
+            <input
+                name="entry.2005620554"
+                class="c-form__input"
+                id="field-name"
+                placeholder="山田　太郎"
+                type="text"
+                required="required"
+            />
+        </div>
+    <!-- 会社名 -->
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-company">会社名/部署名</label>
+            <input 
+                name="entry.1065046570"
+                class="c-form__input"
+                id="field-company"
+                placeholder="株式会社〇〇　△△部"
+                type="text"
+            />
+        </div>
+    <!-- メールアドレス -->
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-mail">メールアドレス<span class="c-form__required">必須</span></label>
+            <input 
+                name="entry.1045781291"
+                class="c-form__input"
+                id="field-mail"
+                placeholder="sample@gmail.com"
+                type="email"
+                required="required"
+            />
+        </div>
+    <!-- 電話番号 -->
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-tell">電話番号</label>
+            <input 
+                name="entry.1166974658"
+                class="c-form__input"
+                id="field-tell"
+                placeholder="090〇〇〇〇△△△△"
+                type="number"
+            />
+        </div>
+    <!-- 問い合わせ内容 -->
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-message">お問い合わせ内容<span class="c-form__required">必須</span></label>
+            <textarea
+                name="entry.839337160"
+                class="c-form__input"
+                id="field-message"
+                placeholder="お問い合わせ内容"
+                type="text"
+                required="required"
+            ></textarea>
+        </div>
+        <div class="c-form__submit">
+            <button type="submit">送信</button>
+        </div>
+    </form>
+
+    <div class="copyrigth">
+        <p>©2024 ISHIMOTO</p>
+    </div>
+  </body>
+</html>
