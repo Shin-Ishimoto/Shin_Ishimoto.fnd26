@@ -1,5 +1,6 @@
 body {
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 header h1{
@@ -22,7 +23,7 @@ nav{
     width: 100%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     overflow: hidden;
 }
 nav ul{
@@ -51,7 +52,6 @@ nav li:hover{
     transition: background-color 0.5s ease-out;
     color: #fff;
 }
-/************/
 
 
 /*****globalNAV*****/
@@ -65,10 +65,7 @@ nav li:hover{
     font-size: 20px;
 }
 
-.globalNavi li:last-child{
-    margin-right: 0;
-}
-/*************/
+
 
 /*****mainImage*****/
 .mainImage {
@@ -81,16 +78,20 @@ nav li:hover{
 .mainImage img{
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
-/******************/
+
+
 
 
 
 /*****aboutSection*****/
-.aboutSection{
-    width: 100%;
+.aboutSection,
+.newsSection {
+    width: 1000px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
 }
 
 .aboutSection img{
@@ -109,23 +110,146 @@ nav li:hover{
 
 .aboutSection h2 span {
     font-size: 30px;
-    border-bottom: 2px solid#000000;
+    border-bottom: 2px solid red;
 }
+
 
 .aboutSection ul{
     overflow: hidden;
+    padding: 0;
 }
 
 .aboutSection li{
     float: left;
     list-style-type: none;
-    width: 20%;
+    width: 30%;
+    margin-right: 2%;
+}
+
+.aboutSection li:last-child{
+    margin-right: 0;
 }
 
 .aboutSection li img{
-    width: 50%;
-    height: 25%;
+    width: 100%;
+    height: 250px;
+}
+
+.aboutSection li:last-child{
+    margin-right: 0;
+}
+
+.aboutSection h3{
+    font-size: 25px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.aboutSection p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+
 }
 
 
-/*****aboutSection*****/
+/*****newsSection******/
+
+.newsSection h2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.newsSection h2 span{
+    font-size: 30px;
+    border-bottom: 2px solid red;
+}
+
+.newsSection table{
+    width: 100%;
+    border-top: 1px solid #dddddd;
+}
+
+.newsSection th{
+    font-family: "DotGothic16", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 15%;
+}
+
+.newsSection td{
+    font-family: "DotGothic16", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 85%;
+}
+
+
+/****referenceBt*****/
+
+.referenceBt {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.referenceBt a{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/****copyrigth******/
+.copyrigth p{
+    text-align: center;
+}
+
+
+
+
+/*****参照ページで使用*****/
+.h2-reference{
+    text-align: center;
+}
+
+.h3-reference{
+    text-align: right;
+}
+
+
+
+/*****プロフィールページで使用*****/
+.intro-myself{
+    display:flex;
+
+}
+
+.myphoto{
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+.intro-text{
+    width:100%;
+    font-size: 20px;
+}
+
