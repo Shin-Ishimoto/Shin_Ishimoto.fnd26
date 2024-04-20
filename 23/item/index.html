@@ -12,13 +12,9 @@
       charset="Shift_Jis"
     />
 
-    <!--[if lte IE 6
-      ]><link
-        rel="stylesheet"
-        href="common/css/ie6fix.css"
-        type="text/css"
-        charset="Shift_Jis"
-    /><![endif]-->
+    <!--
+    [if lte IE 6]><link　rel="stylesheet"　href="common/css/ie6fix.css"　type="text/css"　charset="Shift_Jis"　/><![endif]
+    -->
     <title>品目概要</title>
   </head>
 
@@ -116,30 +112,33 @@
           検索する際は、半角5文字以上を入力してください。(例：08604-00C10)
       </div>
 
-      <form id="search-form" action="#" method="get">
-        <input
-          type="text"
-          id="search-input"
-          name="query"
-          placeholder="品番を入力"
-          style="width: 50%"
-        />
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="品番を入力（5桁以上）">
         <button type="submit">検索</button>
       </form>
 
+
       <div id="result-list">
+
         <table>
-          <tr>
-            <th>品名</th>
-            <th>型番</th>
-            <th>品番</th>
-          </tr>
+          <thead>
+              <tr>
+                  <th>品名</th>
+                  <th>型番</th>
+                  <th>品番</th>
+              </tr>
+          </thead>
+
+          <tbody id="search-results">
+              <!-- 検索結果がここに表示 -->
+          </tbody>
+
 
           <script type="text/javascript" src="../common/js/allItem.js"></script>
           <script type="text/javascript" src="../common/js/serch.js"></script>
+
         </table>
       </div>
-
       <!----- 今回追加機能----->
 
       <div id="footer">
