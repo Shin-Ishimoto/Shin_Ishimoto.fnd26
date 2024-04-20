@@ -308,27 +308,24 @@ body {
 #result-list table {
 	width:586px;
 	border-collapse:collapse;
-	margin-left:20px;
-	margin-top:6px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-#result-list table td, #contents table th{
+#result-list table tr td, #contents table th{
 	border:1px solid #999;
 	padding:3px 8px;
 }
 
 #result-list table th {
+	text-align:center;
 	font-weight:bold;
+	background:#999;
 	color:#333;
 	text-align:center;
+	border:1px solid #999;
 }
 
-#result-list table th {
-	color:#fff;
-	background:#999;
-	font-weight:bold;
-	text-align:left;
-}
 
 #result-list tr th {
 	background-color:#eee;
@@ -546,7 +543,7 @@ body {
 	clear: both;
 	border-width:1px;
 	border-style: solid none;
-	border-color:#999;
+	c:#999;
 	padding:8px 4px;
 	background-color:#fff;
 }
@@ -580,4 +577,5 @@ body {
 	text-align:center;
 	padding-left: auto;
 	padding-right: auto;
+	margin-bottom: 15px;
 }
