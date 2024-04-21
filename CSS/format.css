@@ -253,3 +253,42 @@ nav li:hover{
     font-size: 20px;
 }
 
+
+
+
+/*****　workページで使用　*****/
+.intro-work{
+    display:flex;
+
+}
+
+.accessories-photo{
+    text-align: center;
+    width:80%;
+    height:100%;
+    margin-top: 20px;
+}
+.work-text{
+    width:100%;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.work-text li{
+    margin-bottom: 15px;
+}
+
+.work-text li span{
+    font-weight: bold;
+}
+
+.underBar{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    background: linear-gradient(transparent 70%,yellow);
+}
+
+/*****学びページで使用*****/
+.learn-slide{
+    text-align: center;
+}
